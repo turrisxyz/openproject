@@ -35,6 +35,8 @@ import { OpModalComponent } from 'core-app/shared/components/modal/modal.compone
 import { DatePickerModalComponent } from 'core-app/shared/components/datepicker/datepicker.modal';
 import { TimezoneService } from 'core-app/core/datetime/timezone.service';
 
+export const combinedDateFieldClass = 'combinedDate';
+
 @Component({
   template: `
     <input [value]="dates"
